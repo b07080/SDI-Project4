@@ -1,3 +1,33 @@
+//_______________________________________________________
+//_______________________________________________________
+// STRING FUNCTION THAT CHANGES FIRST LETTER TO UPPERCASE
+
+var string = "my string example";
+
+var caseFunction = function() {
+
+    firstLetter = string.substring(0,1); 
+    
+    var newFirstLetter = firstLetter.toUpperCase(); 
+    
+remainingString = string.substring(1);
+
+string = newFirstLetter + remainingString;
+
+return newFirstLetter;
+
+}
+
+caseFunction();  // Calling the function
+string;          // Re-calling the string to check the change to uppercase
+
+
+//_______________________________________________________
+//_______________________________________________________
+
+
+
+
 //First line of code for library
 // you can call it and add any food into it
 
@@ -50,6 +80,6 @@ var myFunction = function(arg1, arg2) {
 }
 
 //main code
-console.log(booleanReturn);
+var myBooleanReturn =myFunction(1,10);
 
 //____________________________
