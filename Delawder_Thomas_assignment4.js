@@ -19,3 +19,10 @@ orangeCost(5);
 
 
 
+
+
+// another line of hopeless coding assuming that I can connect this with something
+
+var areaBox = function(length, width) {
+         return length * width;
+};
