@@ -18,15 +18,47 @@ return newFirstLetter;
 
 }
 
-caseFunction();  // Calling the function
-string;          // Re-calling the string to check the change to uppercase
+caseFunction();  // CALL THE FUNCTION
+string;          // Here I am Re-calling the string to check the change to uppercase
 
 
 //_______________________________________________________
 //_______________________________________________________
+// STRING FUNCTION FOR URL CHECK
 
 
+var http = "http:";                     
+var https = "https:";  
 
+var checkUrl = function(url) {      
+
+if (url.substring(0,5) == "http:") 
+    return true;
+    
+if (url.substring(0,6) == "https:") 
+    return false; 
+}
+
+checkUrl()  // CALL FUNCTION - Input variable data to check
+
+//_______________________________________________________
+//_______________________________________________________
+// NUMBER FUNCTION - Find the difference between two dates
+
+var dayOfMonthOne = 1;
+var dayOfMonthTwo = 11;
+
+var howLongAgo = function() {
+var difference = dayOfMonthTwo - dayOfMonthOne;
+
+return difference;
+
+}
+
+howLongAgo(difference)   //CALL THE FUNCTION - asking the difference between variables
+
+//_______________________________________________________
+//_______________________________________________________
 
 //First line of code for library
 // you can call it and add any food into it
