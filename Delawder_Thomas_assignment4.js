@@ -60,6 +60,18 @@ howLongAgo(difference)   //CALL THE FUNCTION - asking the difference between var
 //_______________________________________________________
 //_______________________________________________________
 
+
+
+
+
+
+
+
+
+
+
+
+
 //First line of code for library
 // you can call it and add any food into it
 
