@@ -1,20 +1,20 @@
-
 // Thomas Delawder
 // SDI 1306
 // Project 4 - Function Library
 
+// June 27, 2013
 
-// A quick incite into my coding below;  I have included some variables that helped me with testing.
+// A quick incite into my coding below;  My last code was under a time crunch.  I have included 
 
-// I have also noted "calling the functions" to show that I understand how they work.
+// some variables that helped me with testing.  I have also noted "calling the functions" to show that 
 
-// I have really struggled with this course and I can say that as of today I have put forth
+// I understand how they work. Also note: I have really struggled with SDI and I can say that as of today I
 
-// my best effort with these 6 functions below.  I hope that the simplicity shows that I have
+// have put forth my best efforts with these 6 functions below.  I hope that the simplicity shows that I have
 
-// tried to emulate with ease and steer away from confusing script until I know more about JavaScript.
+// tried to emulate ease and that I have steered away from more confusing script until I understand more of JavaScript.
 
-// Lastly I have tried to make viewing / interpreting my work easy on the eyes.  Please enjoy :)
+// Lastly I have tried to make viewing / interpreting my work easy on the eyes.  Please enjoy.
 
 
 //________________FUNCTION 1_____________________________
@@ -126,11 +126,29 @@ findSmallestValue(array) // CALLED Function here
 
 //________________FUNCTION 6_____________________________
 //_______________________________________________________
+// NUMBER FUNCTION - Can format a number to decimal. parseFloat I have seen most commonly used in currency.
+
+var roundToDecimal = function(number, decimals) {
+    
+    return parseFloat(number.toFixed(decimals));
+}
+
+// For this last function I read about the Math.floor and Math.ceil scripts for rounding but I have also read 
+
+// that you can get produce some errors as well if you are not careful, so I kept this one super simple
+
+// I have left the basic knowledge that the parseFloat function parses a string and returns a floating point number
+
+// but also importantly if the first character cannot be converted to a number parseFloat returns NaN. 
 
 
 
+// Thomas Delawder
+// SDI 1306
+// Project 4 - Function Library
 
 
+// June 27, 2013
 
 
 
