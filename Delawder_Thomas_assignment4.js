@@ -122,6 +122,8 @@ var smallestNumber = array[0];
 
 findSmallestValue(array) // CALLED Function here 
 
+// Could also simply code Math.max(1, 2, 3, 4);  OR  Math.min(1, 2, 3, 4); To quickly check for the highest or lowest value
+
 
 
 //________________FUNCTION 6_____________________________
