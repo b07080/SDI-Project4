@@ -1,6 +1,25 @@
+
+// Thomas Delawder
+// SDI 1306
+// Project 4 - Function Library
+
+
+// A quick incite into my coding below;  I have included some variables that helped me with testing.
+
+// I have also noted "calling the functions" to show that I understand how they work.
+
+// I have really struggled with this course and I can say that as of today I have put forth
+
+// my best effort with these 6 functions below.  I hope that the simplicity shows that I have
+
+// tried to emulate with ease and steer away from confusing script until I know more about JavaScript.
+
+// Lastly I have tried to make viewing / interpreting my work easy on the eyes.  Please enjoy :)
+
+
+//________________FUNCTION 1_____________________________
 //_______________________________________________________
-//_______________________________________________________
-// STRING FUNCTION THAT CHANGES FIRST LETTER TO UPPERCASE
+// STRING FUNCTION - changes the first letter case to uppercase
 
 var string = "my string example";
 
@@ -22,7 +41,8 @@ caseFunction();  // CALL THE FUNCTION
 string;          // Here I am Re-calling the string to check the change to uppercase
 
 
-//_______________________________________________________
+
+//________________FUNCTION 2_____________________________
 //_______________________________________________________
 // STRING FUNCTION FOR URL CHECK
 
@@ -44,7 +64,9 @@ if (url.substring(0,5) == "http:")
 
 checkUrl()  // CALL FUNCTION - Input variable data to check
 
-//_______________________________________________________
+
+
+//________________FUNCTION 3_____________________________
 //_______________________________________________________
 // NUMBER FUNCTION - Find the difference between two dates
 
@@ -60,7 +82,9 @@ return difference;
 
 howLongAgo(difference)   // CALL THE FUNCTION - asking the difference between variables outputs 10 days.
 
-//_______________________________________________________
+
+
+//________________FUNCTION 4_____________________________
 //_______________________________________________________
 // STRING FUNCTION that follows a pattern 
 
@@ -75,7 +99,8 @@ return groupNumbers
 pattern("12345678")  // CALLED THE FUNCTION - input numbers and they will group into 3 substrings just like a phone number.
 
 
-//_______________________________________________________
+
+//________________FUNCTION 5_____________________________
 //_______________________________________________________
 // ARRAY FUNCTION - Finds the smallest value in the array (then all you need to ask is if its lower then the given Number)
 
@@ -98,8 +123,9 @@ var smallestNumber = array[0];
 findSmallestValue(array) // CALLED Function here 
 
 
+
+//________________FUNCTION 6_____________________________
 //_______________________________________________________
-//_______________________________________________________
 
 
 
@@ -111,58 +137,3 @@ findSmallestValue(array) // CALLED Function here
 
 
 
-//First line of code for library
-// you can call it and add any food into it
-
-var foodDemand = function(food) {
-    console.log("I want to eat" + " " + food);
-    
-   
-};
-
-foodDemand("dog meat");
-
-
-// another line of code just to help add some more usable parts
-
-var orangeCost = function(totalCost) {
-    console.log(totalCost * 5);
-};
-orangeCost(5);
-
-
-
-
-
-// another line of hopeless coding assuming that I can connect this with something
-
-var areaBox = function(length, width) {
-         return length * width;
-};
-
-
-
-//____________________________________________________________
-// global variables
-
-// functions
-var myFunction = function(arg1, arg2) {
-    // local variables
-    var booleanReturn;
-    
-    if (arg1 < arg2) {
-        console.log("true");
-        booleanReturn = true;
-    } else {
-        console.log("false");
-        booleanReturn = false;
-    }
-    
-    return booleanReturn;
-    
-}
-
-//main code
-var myBooleanReturn =myFunction(1,10);
-
-//____________________________
