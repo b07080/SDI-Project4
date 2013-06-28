@@ -77,10 +77,29 @@ pattern("12345678")  // CALLED THE FUNCTION - input numbers and they will group 
 
 //_______________________________________________________
 //_______________________________________________________
+// ARRAY FUNCTION - Finds the smallest value in the array (then all you need to ask is if its lower then the given Number)
+
+var array = [11, 2, 3, 4];
+
+var  findSmallestValue = function(array) { 
+
+var smallestNumber = array[0];
+    
+    for ( i = 0; i < array.length; i++) {
+    
+	   if (array[i] < smallestNumber ) {
+			smallestNumber = array[i];
+			
+		  return smallestNumber;		
+		}
+	}
+};
+
+findSmallestValue(array) // CALLED Function here 
 
 
-
-
+//_______________________________________________________
+//_______________________________________________________
 
 
 
