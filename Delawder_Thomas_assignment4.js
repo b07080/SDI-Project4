@@ -55,10 +55,27 @@ return difference;
 
 }
 
-howLongAgo(difference)   //CALL THE FUNCTION - asking the difference between variables
+howLongAgo(difference)   // CALL THE FUNCTION - asking the difference between variables outputs 10 days.
 
 //_______________________________________________________
 //_______________________________________________________
+// STRING FUNCTION that follows a pattern 
+
+var pattern = function(numbers) {
+    	
+var groupNumbers = numbers.substring(0,3) + " " + numbers.substring(3,6) + " " + numbers.substring(i);
+
+return groupNumbers
+
+};
+
+pattern("12345678")  // CALLED THE FUNCTION - input numbers and they will group into 3 substrings just like a phone number.
+
+
+//_______________________________________________________
+//_______________________________________________________
+
+
 
 
 
