@@ -1,8 +1,12 @@
+
+
 // Thomas Delawder
 // SDI 1306
 // Project 4 - Function Library
 
+
 // June 27, 2013
+
 
 // A quick incite into my coding below;  My last code was under a time crunch.  I have included 
 
@@ -151,9 +155,6 @@ var roundToDecimal = function(number, decimals) {
 
 
 // June 27, 2013
-
-
-
 
 
 
