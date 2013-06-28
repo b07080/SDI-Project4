@@ -33,10 +33,13 @@ var https = "https:";
 var checkUrl = function(url) {      
 
 if (url.substring(0,5) == "http:") 
-    return true;
+    return true + http;
     
-if (url.substring(0,6) == "https:") 
-    return false; 
+    if (url.substring(0,6) == "https:") 
+        return true + https; 
+    
+        } else {
+            return false + " it is NOT a " + http + " and also NOT " + https + ".";
 }
 
 checkUrl()  // CALL FUNCTION - Input variable data to check
